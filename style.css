@@ -1,0 +1,426 @@
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url("../fonts/NetflixSans_W_Rg.woff2");
+}
+.root{
+    background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8));
+    background-image:   url("background.jpg");
+      background-size: cover;  
+     background-position: center; 
+    
+}
+.navbar{
+    padding-top: 2%;
+    padding-left: 1vw;
+    padding-right: 4vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.drop{
+    margin-left: 65%;
+    appearance: none;
+    outline: 0;
+    background: black;
+    background-image: none;
+    height: 80%;
+    width: 7%;
+    color:white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+
+
+
+.img-logo{
+    width: 12%;
+}
+
+.btn-sign-in{
+   background-color:  #ff0000;
+   color: white;
+   border: #ff0000;
+   padding-top: 8px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 8px;
+   border-radius: 5px;
+   cursor: pointer;
+   width: fit-content;
+}
+.main-container{
+    padding-bottom: 10%;
+}
+.main-tittle-container{
+    padding-top: 15%;
+    color:white;
+    text-align: center;
+}
+.main-tittle{
+    font-family: netflix-sans-regular;
+    font-size: 3.2em;
+    line-height: 1.1em;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+}
+.main-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.main-email { 
+    padding-left: 28%; 
+    height:fit-content;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.main-email input{ 
+    width: 55%;
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em; 
+    align-items: center;
+}
+.main-email button{
+    padding: 19px 10px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.main-email button:hover{
+    background-color: hsl(0, 85%, 39%);
+}
+.second-part{
+    display: flex; 
+    flex-direction: row; 
+     justify-content: space-between; 
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    border-top: 4px solid gray;
+    
+    
+
+}
+.paragraph{
+    font-size:xx-large;
+}
+
+.second-part .img1{
+ width: 45%;
+ padding-top: 8px;
+ left: 90%;
+}
+.second1-part{
+    font-size: 3em;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+
+}
+.third-part{
+    display: flex; 
+    flex-direction: row; 
+     justify-content: space-between; 
+    align-items:center;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    border-top: 4px solid gray;
+    border-bottom:4px solid gray ;
+}
+.third-part .img1{
+    width: 45%;
+    padding-top: 8px;
+    padding-left: 50px;
+   }
+   .part2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 75px;
+   }
+   .second2-part{
+    font-size: 3em;
+}
+   
+.para3{
+    font-size: xx-large;
+}
+.faq{
+    background-image: url("bg6.jpeg");
+    height: fit-content;
+    border-top: 4px solid gray;
+
+}
+.faq h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     padding-left: 30%; 
+
+}
+.tittle{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    
+}
+.tittle1{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    
+}
+.tittle2{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    
+}
+.tittle3{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    
+}
+.tittle4{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    
+}
+.tittle5{
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight:400;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 7px;
+    
+    
+}
+.f-para{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 29%;
+    font-weight: 10;
+}
+.main-email-f input{ 
+    width: 55%;
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em; 
+    align-items: center;
+    margin-bottom: 35px;
+}
+.main-email-f button{
+    padding: 19px 10px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.main-email-f button:hover{
+    background-color: hsl(0, 85%, 39%);
+}
+.footer{
+    background-image: url("bg6.jpeg");
+    height: 300px;
+    border-top: 4px solid gray;
+}
+.main-email-f { 
+    padding-left: 25%; 
+    height:fit-content;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.h2{
+    color:gray;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    padding:80px;
+    padding-left: 12%;
+}
+.h3{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 12%;
+    line-height: 1.8em;
+    margin-top: -6%;
+    font-size: small;
+}
+.h4{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 30%;
+    line-height: 1.8em;
+    margin-top: -8%;
+    font-size: small;
+}
+.h5{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 50%;
+    line-height: 1.8em;
+    margin-top: -9%;
+    font-size: small;
+}
+.h6{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 70%;
+    line-height: 1.8em;
+    margin-top: -9%;
+    font-size: small;
+}
+
+
+@media only screen and (max-width: 787px)
+{
+ .drop{
+    width: 11% ;
+ }
+.main-tittle-container
+    {
+        padding-top: 15%;
+        color:white;
+        text-align: center;
+    }
+    .main-email
+     { 
+        padding-left: 16%; 
+        height:fit-content;
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+    }
+    .second-part
+    {
+        display: flex; 
+        flex-direction: column;
+         justify-content: space-between; 
+        align-items:center;
+        background-color: black;
+        color: white;
+        font-size: .8em;
+        border-top: 4px solid gray;
+    }
+    .third-part
+    {
+            display: flex; 
+            flex-direction: column; 
+             justify-content: space-between; 
+            align-items:center;
+            background-color: black;
+            color: white;
+            font-size: .8em;
+            border-top: 4px solid gray;
+            border-bottom:4px solid gray ;
+        }
+        .second-part .img1
+        {
+            width: 40%;
+            bottom: 15%;
+            left: 40%;
+            padding-left: -40px;
+        }
+           .part1
+        {
+            display: flex;
+            flex-direction: column;
+            padding-left: 110px;
+        
+        }
+        .part2{
+            display: flex;
+            flex-direction: column;
+            padding-left: 100px;
+           }
+           .second2-part{
+            font-size: 3em;
+        }
+        .paragraph{
+            font-size:x-large;
+        }
+        .para3{
+            font-size: x-large;
+        }
+
+    }
